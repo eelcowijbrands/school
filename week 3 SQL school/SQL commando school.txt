@@ -1,0 +1,10 @@
+SHOW DATABASES; = overzicht databases
+
+USE CG-SCHOOL; = gebruik cg-school database
+
+SHOW TABLES; = overzicht tabellen 
+
+SELECT * FROM `cg-leraar`; = overzicht van tabel `cg-leraar` (let op ` teken in command prompt, anders werkt het commando niet)
+
+INSERT INTO `cg-leraar`(leraarID, leraarNaam)  VALUES ('6', 'Mike Jongsma'); = leraarID en leraarNaam toevoegen aan 'cg-leraar' tabel
+
